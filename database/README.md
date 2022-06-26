@@ -1,9 +1,5 @@
 # Base de Datos
 
-**Tabla de Contenido**
-
-[TOC]
-
 ## Base de Datos de Tipo Documental 
 
 https://www.ilimit.com/blog/base-de-datos-sql-nosql/

@@ -1,12 +1,7 @@
 # Protocolo MQTT
 
-**Tabla de Contenido**
-
-[TOC]
-
 ## Protocolo MQTT
 ![alt text](../images/mqtt.png)
-
 
 ## Instalación de Broker con Mosquitto
 

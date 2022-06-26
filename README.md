@@ -1,9 +1,5 @@
 # Desarrollo de Sistemas de Medición Remota
 
-**Tabla de Contenido**
-
-[TOC]
-
 # Setup
 
 ## Instalar Git
