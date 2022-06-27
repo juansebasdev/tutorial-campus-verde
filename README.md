@@ -85,6 +85,14 @@ https://code.visualstudio.com/download
 
 ![alt text](./images/download-vscode.png)
 
+##### Extensiones para optimizar la codificación
+
+Extensión | Link
+---------- | ----------
+Python | https://marketplace.visualstudio.com/items?itemName=ms-python.python
+Pylance | https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
+Intellicode | https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+
 ## Crear Entorno Virtual en Python
 
 ### Entorno Virtual
