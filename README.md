@@ -168,7 +168,7 @@ deactivate
 
 ## Descargar Repositorio
 ```bash
-git clone 
+git clone https://github.com/jsebas96/tutorial-campus-verde.git
 ```
 ## Instalar Librerías Necesarias
 ```bash
