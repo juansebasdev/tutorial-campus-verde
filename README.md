@@ -110,6 +110,13 @@ Agregar como variable a PATH:
 
 ![](./images/add-node-to-path.PNG)
 
+Verificar la instalación en Powershell
+```bash
+node --version
+
+v16.15.1 # Success
+```
+
 ## Instalación Editor de Código VSCode
 
 #### Descarga desde sitio oficial:
@@ -117,13 +124,6 @@ Agregar como variable a PATH:
 https://code.visualstudio.com/download
 
 ![alt text](./images/download-vscode.png)
-
-Verificar la instalación en Powershell
-```bash
-node --version
-
-v16.15.1 # Success
-```
 
 ##### Extensiones para optimizar la codificación
 
