@@ -39,3 +39,22 @@ https://docs.streamlit.io/
 ```bash
 streamlit run <app_name>
 ```
+
+### Setup a menu
+
+```python
+# Add sidebar
+st.sidebar.write('Bienvenido')
+
+# Add a menu to sidebar
+menu = ("op1", "op2", "op3")
+selected_option = st.sidebar.selectbox("Seleccione una opción", menu, index=0)
+
+# Change view
+if selected_option == "op1":
+    ...
+elif selected_option == "op2":
+    ...
+elif selected_option == "op3":
+    ...
+```
