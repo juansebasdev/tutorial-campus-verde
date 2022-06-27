@@ -70,12 +70,45 @@ O descargar desde sitio oficial (NO OLVIDAR AGREGAR LA RUTA DE INSTALACIÓN COMO
 
 https://www.python.org/downloads/windows/
 
+![](./images/add-python-to-path.PNG)
+
 Verificar la instalación en Powershell
 ```bash
 python --version
 
 Python 3.10.4 # Success!
 ```
+
+## Instalar NodeJS
+
+### Linux
+```bash
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+node --version
+v16.15.1 # Success
+```
+
+### MacOS
+```bash
+brew install node
+
+node --version
+v16.15.1 # Success
+```
+
+### Windows
+
+Sitio Oficial:
+
+https://nodejs.org/es/download/
+
+![nodejs](./images/download-node.png)
+
+Agregar como variable a PATH:
+
+![](./images/add-node-to-path.PNG)
 
 ## Instalación Editor de Código VSCode
 
@@ -84,6 +117,13 @@ Python 3.10.4 # Success!
 https://code.visualstudio.com/download
 
 ![alt text](./images/download-vscode.png)
+
+Verificar la instalación en Powershell
+```bash
+node --version
+
+v16.15.1 # Success
+```
 
 ##### Extensiones para optimizar la codificación
 
