@@ -112,6 +112,7 @@ client.connect(config["HOST"], int(config["PORT"]), keepalive=60)
 # Send Data
 client.publish('<topic>', data)
 
+time.sleep(5)
 client.disconnect()
 ```
 
