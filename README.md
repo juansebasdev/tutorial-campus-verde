@@ -132,6 +132,9 @@ Extensión | Link
 Python | https://marketplace.visualstudio.com/items?itemName=ms-python.python
 Pylance | https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance
 Intellicode | https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode
+Material Icon Theme | https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
+Terminal | https://marketplace.visualstudio.com/items?itemName=formulahendry.terminal
+
 
 ## Crear Entorno Virtual en Python
 
@@ -174,5 +177,11 @@ git clone https://github.com/jsebas96/tutorial-campus-verde.git
 ```bash
 pip install -r requirements.txt 
 ```
+
+## Features Adicionales
+
+Postman:
+ 
+https://www.postman.com/downloads/
 
 
