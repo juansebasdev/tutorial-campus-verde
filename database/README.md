@@ -14,29 +14,6 @@ https://www.ilimit.com/blog/base-de-datos-sql-nosql/
 
 ![alt text](https://media.geeksforgeeks.org/wp-content/uploads/20200219180521/MongoDB-database-colection.png)
 
-## Formato JSON
-Es un formato de texto pensado en el intercambio de datos, basado en la sintaxis de JavaScript pero es independiente del lenguaje de programación. Fue creado por Douglas Crockford en 2002.
-
-```json
-{
-    "macAddress": 303E4645,
-    "date": 1656385232,
-    "payload": {
-        "Fase1": {
-            "voltage": 120,
-            "current": 5,
-        },
-        "Fase2": {
-            "voltage": 120,
-            "current": 5,
-        },
-        "Fase3": {
-            "voltage": 120,
-            "current": 5,
-        }
-    }    
-}
-```
 ## Utilizando MongoAtlas
 
 ### Registro

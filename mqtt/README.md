@@ -65,6 +65,30 @@ Para fines praćticos, se puede utilizar brokers de prueba en línea como el de 
 
 https://www.hivemq.com/public-mqtt-broker/
 
+## Formato JSON
+Es un formato de texto pensado en el intercambio de datos, basado en la sintaxis de JavaScript pero es independiente del lenguaje de programación. Fue creado por Douglas Crockford en 2002.
+
+```json
+{
+    "macAddress": 303E4645,
+    "date": 1656385232,
+    "payload": {
+        "Fase1": {
+            "voltage": 120,
+            "current": 5,
+        },
+        "Fase2": {
+            "voltage": 120,
+            "current": 5,
+        },
+        "Fase3": {
+            "voltage": 120,
+            "current": 5,
+        }
+    }    
+}
+```
+
 ### Crear Cliente MQTT
 
 ```python
