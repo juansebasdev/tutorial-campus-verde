@@ -19,19 +19,22 @@ Es un formato de texto pensado en el intercambio de datos, basado en la sintaxis
 
 ```json
 {
-    "macAddress": 303E46D45,
-    "Fase1": {
-        "voltage": 120,
-        "current": 5,
-    },
-    "Fase2": {
-        "voltage": 120,
-        "current": 5,
-    },
-    "Fase3": {
-        "voltage": 120,
-        "current": 5,
-    }
+    "macAddress": 303E4645,
+    "date": 1656385232,
+    "payload": {
+        "Fase1": {
+            "voltage": 120,
+            "current": 5,
+        },
+        "Fase2": {
+            "voltage": 120,
+            "current": 5,
+        },
+        "Fase3": {
+            "voltage": 120,
+            "current": 5,
+        }
+    }    
 }
 ```
 ## Utilizando MongoAtlas
