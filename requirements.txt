@@ -2,4 +2,5 @@ autopep8==1.6.0
 python-dotenv==0.20.0
 paho-mqtt==1.6.1
 pymongo==4.1.1
+pymongo[srv]
 streamlit==1.10.0
