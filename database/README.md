@@ -49,9 +49,9 @@ Si se desea conectar desde cualquier IP, se configura la dirección como: 0.0.0.
 # Connect to the MongoDB server
 db_client = MongoClient(config['MONGO_URI']) 
 # Create the database
-db_name = db_client['<db_name>']
+db_name = db_client['demo']
 # Create the collection 
-db_collection = db_name['<collection_name>'] 
+db_collection = db_name['electricMeter'] 
 ```
 
 ### Recepción de datos y guardar
