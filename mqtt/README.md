@@ -70,7 +70,7 @@ Es un formato de texto pensado en el intercambio de datos, basado en la sintaxis
 
 ```json
 {
-    "macAddress": 303E4645,
+    "macAddress": "303E4645",
     "date": 1656385232,
     "payload": {
         "Fase1": {
@@ -107,7 +107,7 @@ client.username_pw_set(
 ```python
 # Create Data
 data = json.dumps({
-    "macAddress": 303E4645,
+    "macAddress": "303E4645",
     "payload": {
         "Fase1": {
             "voltage": 120,
