@@ -75,8 +75,8 @@ def charts():
 
             for document in data:
                 date.append(document['date'].strftime("%Y-%m-%d %H:%M:%S"))
-                voltage.append(document['voltage'])
-                current.append(document['current'])
+                voltage.append(document['payload']['Fase1']['voltage'])
+        current.append(document['payload']['Fase1']['current'])
 
             voltage_chart = pd.DataFrame({
                 'date': date ,
