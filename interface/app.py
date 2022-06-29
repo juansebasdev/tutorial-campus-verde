@@ -1,15 +1,22 @@
 import streamlit as st
 from views.about_app import about_app
+from views.charts import charts
+from services.mqtt_client import client
+from views.tables import tables
 
 # Add sidebar
 st.sidebar.write('Bienvenido')
 
 # Add a menu to sidebar
-menu = ["Sobre la App", "", ""]
+menu = ["Sobre la App", "Gráficas", "Tablas"]
 selected_option = st.sidebar.selectbox("Seleccione una opción", menu)
 
 if selected_option == "Sobre la App":
     about_app()
+elif selected_option == "Gráficas":
+    charts()
+elif selected_option == "Tablas":
+    tables()
 
 ###///////////////////////////////////
 # '''
