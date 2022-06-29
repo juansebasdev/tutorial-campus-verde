@@ -7,6 +7,14 @@ from config.index import config
     DEFINE CALLBACKS TO RECEIVE DATA
 '''
 
+# Receive Data
+# Connection Callback
+def on_connect(client, userdata, flags, rc):
+    print("Connected with result code " + str(rc))
+    client.subscribe("rtu/#")
+# On Data Received Callback
+def on_message(client, userdata, msg):
+    print(msg.topic + " " + str(msg.payload))
 
 #////////////////////////////////////////////###
 
@@ -16,10 +24,10 @@ client_id = f'python-mqtt-{random.randint(0, 10000)}'
 # Create a new MQTT client instance
 client = mqtt_client.Client(client_id=client_id)
 # Set credentials for connection
-client.username_pw_set(
-    username=config["USER"],
-    password=config["PSSWD"]
-)
+# client.username_pw_set(
+#     username=config["USER"],
+#     password=config["PSSWD"]
+# )
 
 # Start Connection
 client.connect(config["HOST"], int(config["PORT"]), keepalive=60)
