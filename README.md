@@ -3,10 +3,12 @@
 ## Tutores
 
 Juan Sebastián Bravo Meneses
+
 https://www.twitter.com/jsebas96
 https://www.linkedin.com/in/juansebasbravo
 
 Donovan Steven Burbano Benavides
+
 https://www.linkedin.com/in/donovan-burbano
 https://www.github.com/DonovanSB
 
