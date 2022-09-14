@@ -18,7 +18,7 @@ https://www.github.com/DonovanSB
 ```
 mongodb+srv://campusVerde:Z1ZPwj6xBNmIHcDK@cluster0.tto7t79.mongodb.net/?retryWrites=true&w=majority
 ```
-# `etup
+# Setup
 
 ## Instalar Git
 
